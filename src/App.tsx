@@ -42,13 +42,13 @@ export function App(props: VariablesProps) {
   };
 
   return (
-    <div className="bg-light text-body" style={{ height: "100vh" }}>
+    <div className="bg-light text-body">
       {/* NavBar */}
       <nav className="navbar navbar-expand-lg bg-primary text-light h4">
         <div className="container">
-          <a href="/" className="navbar-brand ">
+          <a href="/" className="navbar-brand d-flex align-items-center">
             <img src={tasklyLogo} alt="Taskly Logo" style={{ width: "4rem" }} />
-            {props.title && <h3>{props.title}</h3>}
+            {props.title && <h3 className="p-2">{props.title}</h3>}
           </a>
         </div>
       </nav>

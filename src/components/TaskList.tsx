@@ -15,7 +15,7 @@ export default function TaskList({
   return (
     <>
       {tasks.map((task) => (
-        <div className="col-md-4 pb-2" key={task.id}>
+        <div className="col-md-5 pb-2" key={task.id}>
           <TaskCard
             task={task}
             deleteATask={deleteATask}

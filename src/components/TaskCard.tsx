@@ -18,7 +18,7 @@ export default function TaskCard({
       className={`card card-body alert ${
         task.completed ? "alert-info" : "alert-danger"
       } rounded-2 d-flex flex-column`}
-      style={{ minHeight: "250px", maxHeight: "400px" }}
+      style={{ height: "350px" }}
     >
       <h2 className="card-title" style={{ width: "90%" }}>
         {task.title}
