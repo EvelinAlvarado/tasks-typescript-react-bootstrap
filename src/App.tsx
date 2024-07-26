@@ -42,7 +42,7 @@ export function App(props: VariablesProps) {
   };
 
   return (
-    <div className="bg-light text-body">
+    <div className="bg-light text-body" style={{ minHeight: "100vh" }}>
       {/* NavBar */}
       <nav className="navbar navbar-expand-lg bg-primary text-light h4">
         <div className="container">
@@ -52,7 +52,7 @@ export function App(props: VariablesProps) {
           </a>
         </div>
       </nav>
-      <main className="container p-4">
+      <main className="container p-4 bg-light">
         <div className="row">
           <div className="col-md-4">
             <TaskForm addNewTask={addNewTask} />

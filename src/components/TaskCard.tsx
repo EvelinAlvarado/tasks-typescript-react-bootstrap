@@ -17,7 +17,7 @@ export default function TaskCard({
     <div
       className={`card card-body alert ${
         task.completed ? "alert-info" : "alert-danger"
-      } rounded-2 d-flex flex-column`}
+      } rounded-2 d-flex flex-column `}
       style={{ height: "350px" }}
     >
       <h2 className="card-title" style={{ width: "90%" }}>
